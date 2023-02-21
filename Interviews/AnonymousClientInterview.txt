@@ -1,0 +1,9 @@
+Projection
+Spring batch
+Scheduler
+All and Removal cascade
+primary and composite
+
+list of strings with empty
+get empty strings first
+optional streams

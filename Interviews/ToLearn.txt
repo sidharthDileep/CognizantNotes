@@ -1,0 +1,51 @@
+Need to Learn
+===============
+
+Method Tables
+
+dead objects - memory leaks - obselete object ref
+dangling references
+
+GC algos
+Mark-Sweep
+Mark-Sweep-Compact
+Mark-Copy
+
+Generational Collection
+-reduce pause time
+
+
+Type erasure
+Invariance
+type witness
+
+FileInput/InputStream/Buffered
+
+
+Serialization USe-cases
+frequent reads than writes - serialize to disk or perform cache
+send objects across JVM's
+
+Enum
+
+Inner classes cannot have static members
+
+JMM
+happens-before-rule
+
+
+Atomic - non-blocking and optimistic locking
+
+API design
+Exception handling
+Authentication
+Logging
+Deployment
+
+
+Multithreading
+
+
+Design Patterns
+
+

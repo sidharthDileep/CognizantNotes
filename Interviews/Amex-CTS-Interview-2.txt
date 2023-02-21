@@ -1,0 +1,10 @@
+internal working of arraylist?
+sequences?
+triggers?
+profiling?
+advantages of microservices?
+
+react
+components
+how rendering
+lifecycle methods

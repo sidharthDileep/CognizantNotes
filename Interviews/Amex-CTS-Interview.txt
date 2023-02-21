@@ -1,0 +1,52 @@
+	 1. list2.stream().anyMatch(x -> )
+	 2.Condition
+	 3.transaction management
+	 4.resillence4j - timelimit or countlimit
+	 junits mockMVc exception timer webmvc
+	 assertions
+	 saga
+	 consumer
+	 spring batch 
+	 scheduler
+	 exception handling
+	 requestparam 400 302 
+	 pagination
+	 monitoring
+
+Junit test case for exceptions and time-outs
+
+	@Test
+	@Ex(NullPointerException.class)
+	
+	public void test{
+		
+	}
+--------------------------------------
+
+    public interface FucnctionalDemo {       void letsDoSomething();
+      void letsGo();   
+      public String toString();  
+      public boolean equals(Object o);
+      public static int sum(int a,int b)  
+        {   
+            return a+b;
+        }
+        public default int sub(int a,int b)  
+        {
+            return a-b;
+        }
+    }
+
+---------------------------------
+
+@GetMapping("/api/foos")
+@ResponseBody
+public String getFoos(@RequestParam String id) { 
+    return "ID: " + id;
+}
+
+
+localhost:8080/api/foos
+
+
+------------------------------------

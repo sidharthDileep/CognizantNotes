@@ -1,0 +1,92 @@
+HCSC
+------
+
+@FunctionalInterface
+interface Test{
+
+public int test();
+
+}
+
+class NewTest implements Test{
+
+int test(){
+}
+}
+
+Test test = new Test();
+
+
+Test test = new Test(){
+
+int test(){
+
+}
+
+};
+
+test.test();
+
+Test test2 = () -> return 2;
+
+test2.test();
+
+
+class Singleton{
+
+private static Singleton instance =  null;
+
+private Singleton(){ 
+throw new InstantiantionError();
+}
+
+public static Singleton getInstance(){
+
+if(instance == null){
+
+instance = new Singleton();
+
+}
+
+return instance;
+
+}
+
+
+}
+
+final class Immutable{
+
+private final int id;
+private final String name;
+
+public int getId(){
+return id;
+}
+
+public String getName(){
+return name;
+}
+
+Immutable(int id, String name){
+this.id = id;
+this.name = name;
+}
+
+
+}
+
+public static void main(String args[]){
+
+
+
+
+}
+
+
+rowmapper?
+why spring batch?
+immutable?
+what will be returned after sql join in jpa?
+
+

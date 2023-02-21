@@ -1,0 +1,12 @@
+
+
+marshelling
+jax-rs/ws
+consuming soap and rest
+bean registration
+jsp
+
+
+----------
+Js
+How to change data inside a checkbox dynamically?

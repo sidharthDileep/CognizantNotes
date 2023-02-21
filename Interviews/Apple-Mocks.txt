@@ -1,0 +1,48 @@
+int arr[] = {1,2,1,2,4,5,5,6};
+
+List<Integer> list = Arrays.asList(arr);
+
+Set<Integer> set = new HashSet<>(list);
+
+Collections.sort(set, Collections.reverseOrder());
+
+
+list.stream().distinct().sorted(Collections.reverseOrder()).collect(Collectors.toList());
+
+for(int i : arr){
+
+}
+
+employee							finance
+emp_id name designation				emp_id salary
+
+top 5 managers with salary
+
+select name from employee e Join finance f on e.emp_id = f.emp_id where designation = "manager" order by salary DESC limit 5;
+
+
+public interface Repository extends JpaRepository<Employee, Integer>{
+
+
+}
+
+inheritance
+
+try catch 
+return in the block
+
+collection and stream
+
+functional interfaces
+
+Microservices
+advantages
+annotations
+
+spring boot admin 
+Jar/War
+
+
+constructor final?
+static override?
+arraylist & linkedlist?

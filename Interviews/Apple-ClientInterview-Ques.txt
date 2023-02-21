@@ -1,0 +1,182 @@
+Java 8:- 
+
+What are functional interfaces? Give examples. 
+
+Is the annotation @FunctionalInterface mandatory?  
+ 
+
+What are lambda expressions? Write an example of lambda expression. 
+ 
+
+What are Stream API? What are intermediate and terminal operations? 
+
+Why is default methods introduced in interfaces? 
+
+Write a program to remove duplicates using stream api.  
+
+ 
+ 
+
+Multithreading:- 
+ 
+
+What is multithreading? How to start a thread? How to create a thread? 
+ 
+
+What does start function do in multithreading in Java? 
+ 
+
+What is Executor Service? What is Future? 
+
+What is deadlock in multithreading?  
+ 
+
+What is Daemon thread? 
+
+
+
+Collection Framework:- 
+ 
+
+How to create a HashMap? How to iterate over a HashMap? 
+
+Difference between HashMap and Hash Table.  
+ 
+
+Difference between HashMap and Concurrent HashMap. 
+ 
+
+How can HashMap be made synchronized? 
+
+Difference between Array list and Vector. 
+ 
+
+Write a program to remove duplicates from an array in Java.  
+
+Write a program to print the frequency of each character in Java.  
+
+What are fail-fast and fail-safe iterators? 
+ 
+
+What is ConcurrentModificationException? 
+
+What is the internal working of HashMap? 
+
+What is the internal working of Tree Map?  
+
+Difference between Tree Map and HashMap.  
+
+ 
+ 
+
+Kafka:- 
+
+What is Kafka?  
+
+What are partitions in Kafka? 
+
+What is the flow in Kafka? 
+
+
+
+Spring Boot and Microservices:- 
+
+What is Microservices? Advantages.  
+
+How do different services interact in microservices?  
+
+What is Spring boot? Advantages. 
+
+What are the features of Spring boot? 
+
+How to create a spring boot project?  
+
+What is the difference between @RestController and @Controller?  
+
+What does @SpringBootApplication annotation comprise of?  
+
+How to convert a spring boot application to a web application? 
+
+What is the flow of a spring boot application?  
+
+How can we disable a particular configuration in spring boot? 
+
+Why Spring boot over Spring?  
+
+What are the basic annotations that Spring boot offers?  
+
+Can we override or replace the embedded tomcat server in spring boot? 
+
+What is dependency injection? What is IOC container?  
+
+Write the different classes involved in Spring MVC architecture flow. 
+
+
+Restful Web Services: - 
+
+What is the difference between @PathParam and @QueryParam?   
+
+Difference between Soap and Rest.  
+
+What is the difference between Post and Put methods?  
+
+What does annotation @PathVariable do?  
+
+
+Hibernate: - 
+
+What is caching in Hibernate? What is first-level caching and second-level caching? 
+
+What are the scopes of a bean?  
+
+What are the states in Hibernate Sessions? 
+
+
+Core Java: - 
+
+Which design patterns you have worked on? 
+
+What is singleton pattern? Write a program to create a singleton pattern? 
+
+What is Factory pattern? 
+
+What is Abstract Factory pattern? 
+
+What is functional programming? 
+
+What is comparable and comparator? 
+
+What are OOPS (Object oriented programming concepts) concepts? 
+
+What is the difference between abstract class and interfaces? 
+ 
+
+What is dynamic binding and static binding?  
+
+What is method overloading and method overriding? 
+
+What is inheritance? 
+
+Why can't we instantiate abstract classes? 
+
+Write a program to show method overloading.  
+
+Write a program to show method overriding.  
+
+What is @Transient?  
+
+What is @Qualifier?  
+
+What is @Volatile?  
+
+What is find First () and find Any ()?  
+
+How to reverse a string in Java?  
+
+Why is String immutable in Java?  
+
+What is String pool?  
+
+What is final, finally and finalise?  
+
+

@@ -1,0 +1,11 @@
+get put patch
+design patterns
+scheduler
+kafka
+parellel streaming - threadPool
+multiple controllers - beans concurrent accesss
+response of springboot
+map and filter
+transcational rollback
+bean life cycle
+multiple db

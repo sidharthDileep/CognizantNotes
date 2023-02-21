@@ -1,0 +1,52 @@
+define a functional interface?
+Temporal and TemporalAdjuster?
+chrono?
+transient
+
+
+Greedy algorithms
+
+teacher giving chocolate prgrm
+
+arr1 : 1, 2, 3, 4
+arr2 : 1, 2, 3
+
+1: compare element by element of both arrays
+2: if it is similar skip it and add the element to new array once
+3: else add both element to new array
+
+
+
+DP
+1: two pointers from first and last element of string
+2: compare and if true proceed else break
+
+Divide and Conquer
+binarySearch
+
+
+
+backtracking
+prime
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

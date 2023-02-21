@@ -1,0 +1,43 @@
+static methods in interfaces?
+extending exception or runtimeException is better?
+
+class A{
+
+public static void walk(){Sysout("Parent is walking");
+
+}
+
+} 
+
+class B extends A{
+
+public static void walk(){Sysout("Child is walking");}}
+
+
+
+A ab= new B();
+
+ab.walk();
+--------------------------------------
+
+public int add(int a, float b)
+
+public float add (flaot a, int b)
+
+add(1, 1);
+
+public int add(int a, float b)
+public float add (int a, float b)
+
+-----------------------------------------
+
+diff btw callable and Runnable?
+
+Saga pattern
+
+diff btw spring & spring boot
+
+-------------------------------------------
+
+
+

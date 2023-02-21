@@ -1,0 +1,75 @@
+What new features are added in Java 8?
+Microservice architecture you are working on
+How Authentication and Authorization done in microservices
+How do you validate the token?
+Who does the validation? JWT or Azure?
+List of numbers, find the prime numbers and if that’s a prime number then double it.
+Restful API -a complete flow with annotations
+Can we have XML request body to Rest API
+How does the Rest Controller know if the payload is an XML or JSON? --content type -application/json or xml
+How do you validate the json payload?
+How do you tell the rest methods to invoke validations?
+Dependency Injection
+How can you create object of service layer inside your controller?
+OOPS concepts
+
+How is Polymorphism implemented in Java --> Overloading, Overriding
+What is the keyword for generating the parent-child relationship in java -> extends, implements
+=========================================
+
+Basic concepts of Auth
+#########Designing – A lot of stores are there. How can we design it as all the stores can push the transaction to a central server/repository?
+What are the things you take care while marking a US as completed?
+Unit Test cases framework
+Mockito framework – Stub. When will you use it? (DAO). Do we really need stubs at all?
+Have you used Wire mock
+Have you done anything beyond unit testing? Any Performance testing?
+Any API test you have been a part of
+Deployment aspects
+Docker containers.
+Do you use any container orchestration
+You have microservices in the cloud. When they must communicate with each other, what all are the security aspects need to be taken care of
+I have two strings in java. Want to compare if it is equal. How can you do it? (== and equals)
+###############I have a nested for loop with same iterators. What is the time and space complexity?
+Sorting Algorithms
+HashMap – When will you use a Hashmap and a Set
+ 
+
+========================================================================
+
+You have a device for measuring temperature. What would be the model of your API to collect data from that device using Spring Boot.
+Security of API. What header would you set?
+Service classes throwing exception. Show how can you handle such exceptions.
+What is a circuit breaker pattern ?
+Stack and Heap. What will be stored in stack – mentioning a class. Why JVM stores object in heap and reference variable in stack
+##################Points for performance improvement in a program
+Parts of AWS that you are familiar with.
+===================================
+
+ 
+Benefits of using java with respect to other platforms
+What is polymorphism? Compile time and Run time
+What is overriding?
+Difference between overloading and overriding
+Copy and clone
+Super, this
+Design patterns – Use of singleton pattern
+ 
+===========================================================
+Internal
+----------
+String str ="aabca";
+
+Map<String, Integer> map = new HashMap<>();
+
+for(int i=0; i<str.length; i++){
+if(map.get(str[i] == null){
+map.put(str[i], 1);
+} else {
+map.put(str[i], map.get(str[i]) + 1);
+}
+
+}
+
+map.entrySet().stream().collect(Collectors.toList(Function.identity(), Collectors.counting));
+===================================================================

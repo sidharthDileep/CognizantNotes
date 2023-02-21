@@ -1,0 +1,49 @@
+List<Integer> list = Arrays.asList(...);
+
+int second = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst();
+
+Java platform independence
+
+what is the advantage of spring framework dependency injection?
+
+Static class
+
+const and static (compile time constants)
+
+can we run in embedded systems?
+
+public static void main(String args[])?
+
+System.out.println(); how?
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+[09:31] Philip Mathew, Ratul (Cognizant)
+Few AWS questions - 
+========================================================
+How to create public subnet vs private subnet 
+-> Create two different route tables for private and public
+    and in public subnet route table - to point all extenal bound traffic ( ie; 0.0.0.0/0) to Internet Gateway
+    and in private subnet route table - dont add this rule for extenal traffic ( ie; 0.0.0.0/0) to Internet Gateway
+How will a private EC2 connect with other services in different VPC or Google cloud via internet ?
+- add rule in private subnet route table - to point all extenal bound traffic ( ie; 0.0.0.0/0) to NAT Gateway
+SSH cmd ?
+ssh -i file.pem ec2-user@<ip_address_of_EC2>
+ 
+
+I am trying to SSH into EC2 but getting timeout ? What could be the reason ?
+  1) EC2 secruity group might not SSH port open 
+
+[10:28] Philip Mathew, Ratul (Cognizant)
+VPC
+subnet
+route table
+ 
+Internet gateway
+NAT gateway
+ 
+NACL 
+
+==============================================================================================================================
