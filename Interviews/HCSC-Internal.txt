@@ -88,5 +88,6 @@ rowmapper?
 why spring batch?
 immutable?
 what will be returned after sql join in jpa?
-
+anonymous inner class?
+method reference?
 
