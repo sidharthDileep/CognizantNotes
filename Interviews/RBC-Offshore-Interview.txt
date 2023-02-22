@@ -9,3 +9,5 @@ map and filter
 transcational rollback
 bean life cycle
 multiple db
+how kafka is different from others?
+how do we send files using REST api?
