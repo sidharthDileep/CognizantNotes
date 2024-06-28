@@ -1,0 +1,4 @@
+inline and block element
+media query with responsive
+remove duplicates in angular
+local storage in angular

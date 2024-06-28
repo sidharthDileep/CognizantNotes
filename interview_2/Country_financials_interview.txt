@@ -1,0 +1,22 @@
+use cases of fuctional interfaces
+lambda expressions
+abstract classes
+interfaces
+predefined functional interfaces
+predicates, why cant we use if else
+why use lambda and functionalInterfaces
+streams
+
+can 
+do we need to implement methods of abstract class
+why default methods, why introduced
+
+tomcat run?
+what is passed in args of main?
+
+unchecked exception - arrayindexOutofbound
+spring flow
+angular routing
+pipes
+data binding
+injectable

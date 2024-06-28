@@ -1,0 +1,92 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout scm') {
+            steps {
+                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/boxfuse/boxfuse-sample-java-war-hello.git']])
+            }
+        }
+        stage('build') {
+            steps {
+                bat 'mvn package'
+            }  
+        }
+        stage('sonar analysis') {
+            steps {
+                bat 'mvn clean package'
+                bat 'mvn sonar:sonar -Dsonar.url=http://localhost:9000/ -Dsonar.login=5e3973ceface0a447c53e925bf5f39ccfc7f1bbe -Dsonar.projectName=java-app -Dsonar.java.binaries=. -Dsonar.projectKey=java-app'
+               
+            }  
+        }
+        stage('Upload Jfrog artifacts') {
+            steps {
+                rtServer (
+                    id: 'artifactory',
+                    url: 'http://localhost:8082/artifactory',
+                   
+                    username: 'jenkins',
+                    password: 'myAdmin1',
+                    //credentialsId: 'jenkins',
+                    bypassProxy: true,
+                    timeout: 300
+                )
+                rtUpload (
+                    serverId: 'artifactory',
+                    spec: '''{
+                          "files": [
+                            {
+                              "pattern": "target/*.war",
+                              "target": "libs-release-local/"
+                            }
+                         ]
+                    }''',
+               
+                    // Optional - Associate the uploaded files with the following custom build name and build number,
+                    // as build artifacts.
+                    // If not set, the files will be associated with the default build name and build number (i.e the
+                    // the Jenkins job name and number).
+                    //buildName: 'holyFrog',
+                    //buildNumber: '42',
+                    // Optional - Only if this build is associated with a project in Artifactory, set the project key as follows.
+                    //project: 'my-project-key'
+                )
+
+            }  
+        }
+        stage('Download Artifacts') {
+            steps {
+                rtDownload (
+                    serverId: 'artifactory',
+                    spec: '''{
+                          "files": [
+                            {
+                              "pattern": "libs-release-local/*.war",
+                              "target": "target/"
+                            }
+                          ]
+                    }''',
+               
+                    // Optional - Associate the downloaded files with the following custom build name and build number,
+                    // as build dependencies.
+                    // If not set, the files will be associated with the default build name and build number (i.e the
+                    // the Jenkins job name and number).
+                    //buildName: 'holyFrog',
+                    //buildNumber: '42',
+                    // Optional - Only if this build is associated with a project in Artifactory, set the project key as follows.
+                    //project: 'my-project-key'
+                )
+
+            }  
+        }
+        stage('Deploy Sample app to tomcat server') {
+            steps {
+                script {
+                    deploy adapters:
+                    [tomcat9(credentialsId: 'tomcat', url: 'http://localhost:8686/manager/html')],
+                    contextPath: '/myapp', war: 'target/*.war'
+                }
+            }  
+        }
+    }
+}

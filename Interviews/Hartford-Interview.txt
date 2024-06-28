@@ -2,3 +2,11 @@ ArgumentCaptor
 AWS servics?
 Karate?
 How to test REST-Aps's?
+
+------------------------------
+2nd
+
+How do we validate JSON before reaching controller?
+ErorrProperties file? custom Exception?
+How does Spring JPA works?
+How does profiling works in one yaml works?

@@ -1,0 +1,67 @@
+Map<Integer, Integer> map = new HashMap<>();
+map.entrySet().forEach((k, v) -> System.out.println("key : " + k + " value : ");
+
+int[] arr = new int[3];
+
+3, 5, 2, 1
+
+int largest = Integer.MIN_VALUE;
+int second_largest = Integer.MIN_VALUE;
+
+for(int i = 0; i < n; i++){
+
+if(arr[i] > largest){
+second_largest = largest;
+largest = arr[i];
+}
+
+if(second_largest < arr[i] && arr[i] < largest){
+second_largest = arr[i];
+}
+
+
+
+
+}
+
+Arrays.stream(arr).filter(e -> e % 2 == 0).collect(collectors.toList());
+
+Consumer
+BiConsumer
+
+
+
+@PostMapping("/call/api/")
+public ReponseEntity<Custom> doSomething(@RequestBody Request request){
+ bvcs
+service.call();
+
+return new ResponseEntity
+}
+
+@GetMapping("/api/v1/{id})
+public Reponse some(@PathVariable Integer id){
+
+}
+
+RequestParam
+
+@Query("
+
+@configurationProperties
+
+let const var
+lifecycle hooks
+directives
+ngclass
+objects.keys()
+pipe
+ngrx
+bootstrap
+promise
+apicall
+subscription
+
+HTML CSS
+
+
