@@ -1,0 +1,266 @@
+
+ 
+1. Core concepts of Angular components
+
+
+2. Concept of modules
+
+
+3. Fundamentals of services and Dependency injection
+
+
+4. Angular life cycle hooks
+
+
+5. Basics of component Interaction
+
+
+6. How to style anglular components
+
+
+7. How to create dynamic components
+
+
+8. What are directives? How structural directive and attribute directives works.
+
+
+9. How pipes works in angular
+
+
+10. Usage of Forms, like reactive forms and template driven forms, with form validation
+
+
+11. Using Observables and RxJs
+
+
+12. How NgModules works and what its components.
+
+
+13. Basics of HttpClient module.
+
+
+14. Working of angular Routing and Navigation
+
+
+15. Basics of server side rendering
+ 
+ 
+
+ 
+What is Spring Boot?
+
+
+What are the advantages of Spring Boot?
+
+
+What are the features of Spring Boot?
+
+
+How to create Spring Boot application using Maven?
+
+
+How to create Spring Boot project using Spring Initializer?
+
+
+How to create Spring Boot project using boot CLI?
+
+
+How to create simple Spring Boot application?
+
+
+What are the Spring Boot Annotations?
+
+
+What is Spring Boot dependency management?
+
+
+What are the Spring Boot properties?
+
+
+What are the Spring Boot Starters?
+
+
+What is Spring Boot Actuator?
+
+
+What is thymeleaf?
+
+
+How to use thymeleaf?
+
+
+How to connect Spring Boot to the database using JPA?
+
+
+How to connect Spring Boot application to database using JDBC?
+
+
+What is @RestController annotation in Spring Boot?
+
+
+What is @RequestMapping annotation in Spring Boot?
+
+
+How to create Spring Boot application using Spring Starter Project Wizard?
+
+
+Spring Vs Spring Boot?
+ 
+ 
+ 
+Difference between real DOM and virtual DOM?
+
+
+Can we have 2 way data binding in react?
+
+
+Is it possible to use React without rendering HTML?
+
+
+How to define constants in react?
+
+
+Different phases of component life cycle?Latest
+
+
+What is the difference between element and component?
+
+
+Functional vs class components?When to use a Class Component over a Function Component?
+
+
+What are Pure Components?ex.
+
+
+What are hight order components?Ex.
+
+
+Purpose of callback function as an argument to setState()?
+
+
+WHat is context in React?
+
+
+What is this.props.children?
+
+
+What is the purpose of using super constructor with props argument?
+
+
+What is reconciliation and diffing algorithm?
+
+
+What are React.Fragments? Why it is better than containers and divs?
+
+
+Where to Fetch Data: componentWillMount vs componentDidMount?
+
+
+What are the way to style components in react?
+
+
+What are styled components?
+
+
+How do you access props in attribute quotes?
+
+
+What are "key" props and what is the benefit of using them in arrays of elements?
+
+
+What do you understand by React.createRef()?
+
+
+State Lifting?
+
+
+What is the difference between super() and super(props) in React using ES6 classes?
+
+
+What are controlled components vs uncontrolled components?
+
+
+Difference between React and ReactDOM?
+
+
+What is React router?
+
+
+what is history.push()?
+
+
+Redux vs Flux?
+
+
+What are the three core principles of redux?
+
+
+What are actions in redux?
+
+
+what is redux saga?
+
+
+What is the difference between mapstatetoprops() and mapdispatchtoprops()?
+
+
+Can we maintain a separate state if we are using redux store?
+
+
+Why are Redux state functions called reducers?
+
+
+How to access redux store outside a react component?
+ 
+ 
+
+ 
+What does DOCTYPE do?
+
+
+Name at least 2 differences between HTML & XHTML
+
+
+How many list types exist and what are they?
+
+
+What is an <ul> tag?
+
+
+How do you create bold text in HTML using a tag?
+
+
+How do you create a link in HTML?
+
+
+Name HTML tags used for tables that are specific
+
+
+What is the difference in display between <div> and <span> elements?
+
+
+If you don't specify the width of a <div> element in HTML what will the default width be?
+
+
+Can you declare the <thead> after the <tbody> in a table?
+ 
+ 
+
+What are the options for applying CSS to an HTML document?
+
+
+How can you override an inline style?
+
+
+What is the result of two separate external stylesheets defining conflicting rules (or the same stylesheet defining multiple conflicting rules) for the same element(s)?
+
+
+Is it possible to include an external stylesheet in another stylesheet?
+
+
+What (types of) selectors does CSS provide?
+
+
+Is it possible to target an element based on its relationship to another element (e.g., B is a descendant of A, or B immediately follows A)?
+ 
+ 

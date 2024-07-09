@@ -3,3 +3,5 @@ Introduction
 I have 5 years of work experience mostly working in java springboot microservices. i have been in cognizant for more than a year now. the last major projects I worked was on a retirement application. it used by customers to plan their retirement. user can input details like retirement age, annual salary, based on that user will see eligible plans to add. in the backend we are calling morning start service to get the projection depending on the user's choice and user will see what improvements can be done based on the current choice and investing behaviour choosed.
 
 tech stack we used was Angular UI running on springboot server and a spring webflux middleware
+
+ 5978325

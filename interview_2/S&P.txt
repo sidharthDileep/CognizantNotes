@@ -82,7 +82,7 @@ when we need microservice be so reliable without any failure, what mechanism we 
 
 what happens in Collections.stream().forEach() ans Collections.forEach()?
 
-
+what is index and view?
 
 
 

@@ -1,0 +1,96 @@
+Interface A {
+default xyz(){
+
+}
+
+}
+
+Interface B {
+default xyz(){
+
+}
+
+}
+
+class ABC implements A, B {
+
+xyz(){
+super.A.xyz();
+}
+
+}
+
+class Person{
+
+firstName,
+lastName,
+age
+
+}
+
+Comparator comparePerson = (Person p1, Person p2) -> {
+
+if(p1.getAge() < p2.getAge) return -1;
+else return 1;
+
+}
+
+
+personList.stream().sorted(Comparator.comapring(Person::getAge).thenComparing(Person::getLastName), Comparator.reverseOrder());
+
+we need to get manager's manager employee id
+
+SELECT m.manager_id FROM Employee e, Employee m WHERE e.manager_id = m.id;
+
+Employees 
+emp_id, department_name, base_salary
+
+second highest salary from each department
+
+SELECT department_name, base_salary FROM Employee ORDER BY base_salary desc limit 1, 1 GROUP bY department_name;
+
+virtual threads
+
+
+multithreading
+Collections
+Reactive programming
+
+backpressure
+Processors
+subscription
+onReturn and returnresume
+
+ThreadScheduler
+
+
+TreeSet and HashSet
+ArrayList and LinkedList
+Queue and DEque
+
+
+COnfiguration management in spring boot
+spring.configs.filepath
+Env
+
+swagger validations in springboot return custom
+
+Thread states
+
+can we autowire model class
+how we initialize external jar class?
+
+which JPA repository is used for reactive spring?
+priorityThread
+partition in sql?
+
+if in a transaction 500 records are to inserted and at 499th record some error occured, will all be rollbacked or not?
+
+
+operations in a transaction?
+
+
+WITH RankedSalaries AS (SELECT employee_id, department, salary, ROW_NUMBER() OVER (PARTITION BY department ORDER BY salary DESC) AS salary_rank FROM employees)
+
+SELECT department, employee_id, salary FROM RankedSalaries where salary_rank = 2;
+
