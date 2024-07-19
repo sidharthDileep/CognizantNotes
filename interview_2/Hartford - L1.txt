@@ -1,0 +1,26 @@
+Hartford - L1
+
+AWS services?
+ECS how to connect to RDS? pwd mgmt?
+ECS tasks? cluster and task name?
+steps sto set ECS running?
+SQS? SNS?
+how to pass arguments to AWS lambda?
+how to restrict all incoming requests to EC2 using IAM? security groups?
+NACL?
+
+completableFuture? is it async or parellel?
+code to read a file and append "Hello" and write to another file?
+if the file size is 10gb and RAM is only 2GB, how do you handle? streams?
+serialization and deseiralization?
+
+data binding?
+router?
+services?
+modules?
+
+kafka?
+topics?
+parellel processing?
+
+JPA? DTO?

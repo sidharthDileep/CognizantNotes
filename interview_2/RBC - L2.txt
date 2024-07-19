@@ -1,0 +1,58 @@
+RBC - L2
+
+List<String> names = List.of("Ramesh", "Ramesh", "Sidharth");
+		
+		Map<String, Long> collect = names.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+		System.out.println(collect);
+		
+		List<Employee> emps = List.of(new Employee("Ramesh", 1000), new Employee("Rakesh", 2000));
+		
+		Employee employee = emps.stream().sorted(Comparator.comparing(Employee::getSalary).reversed()).skip(1).findFirst().get();
+		System.out.println(employee);
+		
+		int number = 12345;
+		int sum = 0;
+		
+		while(number > 0) {
+			sum += number % 10;
+			number /= 10;
+		}
+		
+		System.out.println(sum);
+		
+		//count of characters
+		String str = "Sidharth";
+		
+		char[] arr = str.toCharArray();
+		int[] count = new int[26];
+//		for(int i = 0; i < str.length(); i++) {
+//			count[arr[i]] = 
+//		}
+		
+		
+		Map<String, Long> collect2 = Arrays.stream(str.split("")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+		System.out.println(collect2);
+		
+		Employee and Department
+		
+		department, employees, 
+		
+		SELECT dep.name, emp.name FROM Employee emp JOIN DEPARTMENT dep ON emp.dep_id = dep.id GROUP BY dep.name;
+		
+		SELECT dep.name, size FROM Employee emp JOIN DEPARTMENT dep ON emp.dep_id = dep.id GROUP BY dep.name with size as if count(*) > 10 big else small
+		
+		
+
+CI/CD setup 
+microservices crud app
+spring works?
+junits?
+kafka architecture?
+java 11?
+load balancer algorithms
+service registry?
+thread pools?
+hashmap and conncurrent hashmap?
+java8 improvement for hashmap?
+
+

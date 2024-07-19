@@ -1,0 +1,10 @@
+IELTS
+
+
+spring boot differ from spring?
+compnenets worked in java?
+design patterns?
+
+agile?
+
+circuit breaker? how to use?

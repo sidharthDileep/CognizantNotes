@@ -1,0 +1,25 @@
+Hartford
+
+1. heap vs stack memory in java
+2. what is diff b/w Thread/process 
+3. thread t1 and t2 are updating a data structure /same object - then what are the problems that could occur?
+4. how do you connect the database from your app? mention different ways
+5. Diff b/w JPA and JDBC
+6. What is DAO or entity classes
+7. What is DTO in java?
+8. what is the name of process of converting JSON to a java object ?
+9. What is deserialization and serialization in java?
+10. What is a design pattern and give some examples?
+11. What is a singleton design pattern? advantages and disadvantages/cons?
+12. When you go and type a url in a broswer whats happening behind the seen? //network knowledge
+13. What is HTTP/HTTPS and TCP/UDP ? what makes it secure? 
+14. what is TLS?
+15. What is the OSI model?
+16. What is osi model which is used in rest api calls?
+17. ALB vs N/w LB?
+18. Databases questions - what type of DB is dynomo DB
+19. Why we need no sql DB ? pros and cons
+20. When we need to use relational DB?
+21. What is EC2 container?
+22. What are diff b/w EC2, ECS and Lambda?
+23. What is a Virtual Machine?

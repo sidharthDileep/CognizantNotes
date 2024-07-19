@@ -1,7 +1,26 @@
 Introduction
 
-I have 5 years of work experience mostly working in java springboot microservices. i have been in cognizant for more than a year now. the last major projects I worked was on a retirement application. it used by customers to plan their retirement. user can input details like retirement age, annual salary, based on that user will see eligible plans to add. in the backend we are calling morning start service to get the projection depending on the user's choice and user will see what improvements can be done based on the current choice and investing behaviour choosed.
+I have 5 years of work experience mostly working in java springboot microservices. i have been in cognizant for more than a year now. the last major projects I worked was on a retirement application. it used by customers to plan their retirement. user can input details like retirement age, annual salary, based on that user will see eligible plans to add. in the backend we are calling morning star service to get the projection depending on the user's choice and user will see what improvements can be done based on the current choice and investing behaviour choosed.
 
 tech stack we used was Angular UI running on springboot server and a spring webflux middleware
+
+my roles and reponsibilities include
+1) take up the tasks available in the backlog available for sprint ready
+2) analyze the requirements and acceptance criteria
+3) unit test the code
+4) raise PR and ask for review
+5) move the code to master branch and deploy
+6) amigo session to QA and move the story to QA
+7) after QA validation if any bugs tasks will be created and linked to story
+8) rework and fix if any
+9) tech lead evaluation and BA will move the story to pending acceptance 
+10) PO tests the reqs and scrum master will close the story
+
+
+last work in angular
+I use to get small bug fixes changing the styling which receives from UX team and needs to collabrate with them if any issues when comapred to Figma
+
+last work in backend
+worked on the java code which receives event from SQS which we need to deserialize and create a new Payload and stream the records received through series of steps like backend service call, db call, send messages to queue and process unenrollments and save to db
 
  5978325

@@ -1,0 +1,9 @@
+Visa - UI
+
+how do componenets commmunicate
+lifecycle hooks - ngOnChanges, ngOnDestroy
+reactive forms - FormGroup
+pipes
+
+
+what works have u done in angular

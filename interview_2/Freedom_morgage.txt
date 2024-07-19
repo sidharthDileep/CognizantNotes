@@ -1,0 +1,20 @@
+Freedom_mortgage
+
+how do you implement microservices?
+
+
+API gateway features
+lambda?
+lamda invocations
+SNS, SQS
+
+
+JPA?
+hibernate?
+
+log4j vulnerabilities
+
+Angular new features
+Angular SPA
+lifecycle hooks
+ngDoCheck

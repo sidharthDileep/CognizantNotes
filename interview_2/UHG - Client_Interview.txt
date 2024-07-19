@@ -1,0 +1,15 @@
+UHG - Client_Interview
+
+
+tell us about last project?
+tell how does sprint works?
+new features of Java?
+why webflux? we can use virtual threads from java 21 with same functionality?
+
+what all things you will do for visualizing a graph from data points?
+
+SOAP and REST
+openshift
+typescript
+
+records in Java and what does it lack?

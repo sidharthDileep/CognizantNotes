@@ -1,0 +1,17 @@
+RBC - Client
+
+Java 8 Features
+completableFuture
+suppose we have a situation where we need to retrieve 100 rows from database and write to a file. how would you do it?
+spring webflux? how does it work differently from spring boot?
+cant we use virtual threads instead of spring webflux?
+how do you handle monitoring in spring webflux?
+
+difference between sql and nosql?
+how nosql scale better than sql?
+
+Create a REST api and test?
+why we need to add no-arg public constructor to entity/model?
+how do we restrict null/empty resquests?
+how do we handle exceptions? code?
+POST and PUT diff?

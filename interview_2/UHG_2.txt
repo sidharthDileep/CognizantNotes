@@ -1,0 +1,27 @@
+UHG
+
+List<Integer> list
+
+list.stream().sorted().first();
+list.stream().sorted(Comparator.reverseOrder()).first();
+
+String str = "Hello World";
+		
+		Map<String, Long> map = Stream.of(str).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+		System.out.println(map);
+		
+
+tell me about complete application from front end to back end with authentication and all for form based app?
+
+how autotrigger in git happens for Jenkins
+
+where is pwds stored in jenkins
+
+kubernetes?
+where are configs stored?
+
+how profile is given to a spring boot app in prod?
+
+how we call another microsservice where are the credentials stored?
+
+feign client?
